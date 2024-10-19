@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- HTML Meta Tags -->
     <title>Modula</title>
     <meta name="description" content="The Modula deep learning framework.">
@@ -22,8 +21,13 @@
     <meta name="twitter:title" content="Modula">
     <meta name="twitter:description" content="The Modula deep learning framework.">
     <meta name="twitter:image" content="https://modula.systems/logo.jpeg">
-
     <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
         body {
             background-color: #131416;
             color: rgb(207, 208, 208);
@@ -33,18 +37,22 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            margin: 0;
         }
         .container {
-            width: 600px;
+            width: 100%;
+            max-width: 600px;
             padding: 20px;
+            box-sizing: border-box;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="logo.svg">
+        <img src="logo.svg" alt="Modula logo">
     </div>
 </body>
 </html>
