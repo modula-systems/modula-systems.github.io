@@ -1,0 +1,34 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #131416;
+    color: rgb(207, 208, 208);
+    font-size: 16px;
+    line-height: 24px;
+    font-family: -apple-system, "system-ui", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a:link {
+  color: rgb(207, 208, 208);
+}
+a:visited {
+  color: rgb(207, 208, 208);
+}
+a:hover {
+  color: rgb(166, 166, 166);
+}
